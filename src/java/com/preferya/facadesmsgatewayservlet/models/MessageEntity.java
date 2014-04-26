@@ -16,9 +16,6 @@ import java.util.List;
  */
 public class MessageEntity implements Serializable {
     
-    private static final int NUMBUTESVALIDATIONCODE = 5;
-    private static final int NUMBYTESISOLANG = 5;
-    
     private String phone;
     private String validactionCode;
     private String isoLang;
@@ -63,7 +60,5 @@ public class MessageEntity implements Serializable {
     public String getIsoLang() {
         return isoLang;
     }
-    
-        //TODO: To be continued...
     
 }

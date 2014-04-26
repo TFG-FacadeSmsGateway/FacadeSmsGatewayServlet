@@ -7,7 +7,6 @@
 package com.preferya.facadesmsgatewayservlet.controllers;
 
 import com.preferya.facadesmsgatewayservlet.models.MessageEntity;
-import com.preferya.facadesmsgatewayservlet.services.EsPhoneValidationService;
 import com.preferya.facadesmsgatewayservlet.services.IPhoneValidationService;
 import com.preferya.facadesmsgatewayservlet.services.PhoneValidationFactory;
 import java.io.IOException;

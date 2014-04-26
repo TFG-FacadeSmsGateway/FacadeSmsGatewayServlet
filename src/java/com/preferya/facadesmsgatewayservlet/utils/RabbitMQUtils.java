@@ -20,7 +20,6 @@ import java.io.IOException;
 public class RabbitMQUtils {
     
     private static final String TASK_QUEUE_NAME = "internalQueue";
-    //private static final String TASK_QUEUE_NAME = "task_queue";
     
     private ConnectionFactory factory;
     private Connection connection;
