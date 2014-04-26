@@ -4,11 +4,11 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.services;
+package com.preferya.facadesmsgatewayservlet.services;
 
-import com.preferya.facadesmsgateway.models.MessageEntity;
-import com.preferya.facadesmsgateway.utils.RabbitMQUtils;
-import com.preferya.facadesmsgateway.utils.TokenUtil;
+import com.preferya.facadesmsgatewayservlet.models.MessageEntity;
+import com.preferya.facadesmsgatewayservlet.utils.RabbitMQUtils;
+import com.preferya.facadesmsgatewayservlet.utils.TokenUtil;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

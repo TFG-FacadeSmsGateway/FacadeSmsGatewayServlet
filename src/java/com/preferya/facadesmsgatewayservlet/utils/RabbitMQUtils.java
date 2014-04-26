@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.utils;
+package com.preferya.facadesmsgatewayservlet.utils;
 
-import com.preferya.facadesmsgateway.models.MessageEntity;
+import com.preferya.facadesmsgatewayservlet.models.MessageEntity;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.Channel;

@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.utils;
+package com.preferya.facadesmsgatewayservlet.utils;
 
-import com.preferya.facadesmsgateway.models.MessageEntity;
+import com.preferya.facadesmsgatewayservlet.models.MessageEntity;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
