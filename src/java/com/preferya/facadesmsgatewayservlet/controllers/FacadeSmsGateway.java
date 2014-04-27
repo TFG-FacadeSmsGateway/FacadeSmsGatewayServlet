@@ -43,7 +43,7 @@ public class FacadeSmsGateway extends HttpServlet {
         PrintWriter out = response.getWriter();
         
         
-        //Firstly, we get the parameters.
+        //Firstly, we get the parameters from request.
         String _phone = request.getParameter("phone");
         String _validation_code = request.getParameter("validation_code");
         String _iso_lang = request.getParameter("iso_lang");
